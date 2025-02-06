@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Management App</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Contact Management App</h1>
+    </nav>
+    <div class="form-container">
+        <h2>Create Contact</h2>
+        <input type="text" id="firstName" placeholder="Enter First Name..">
+        <input type="text" id="lastName" placeholder="Enter Last Name..">
+        <input type="number" id="mobileNumber" placeholder="Enter Mobile Number..">
+        <select id="status">
+            <option value="Active">Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+        <button type="submit" onclick="saveContact()">Save Contact</button>
+    </div>
+    <div class="card-container" id="cardContainer">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
